@@ -456,6 +456,7 @@ h4 {
 .main-banner .title {
   color         : var(--white-color);
   margin-bottom : 1.2rem;
+  font-weight: 550;
 }
 
 @media screen and (min-width: 1024px) {
@@ -896,7 +897,7 @@ h4 {
 /*  ----- FORMULARIO -----  */
 
 form {
-  width: 400px;
+  max-width: 400px;
   margin: 20px auto;
   text-align: left;
   padding: 20px;
@@ -916,6 +917,18 @@ input[type="text"], input[type="email"], textarea {
   border-radius: 5px;
   font-size: 16px;
   box-sizing: border-box;
+}
+
+@media screen and (max-width: 600px) {
+  form {
+    padding: 10px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    font-size: 14px;
+  }
 }
 
 .map {
@@ -939,6 +952,7 @@ input[type="text"], input[type="email"], textarea {
     display: none; /* Oculta el mapa en pantallas más estrechas */
   }
 }
+
 
 .title-map{
   /*position: absolute;*/
@@ -989,6 +1003,7 @@ input[type="text"], input[type="email"], textarea {
   margin-top: 2rem;
 }
 
+
 .section-container h2 {
   margin-bottom: 1rem;
 }
@@ -1010,7 +1025,7 @@ input[type="text"], input[type="email"], textarea {
 @media screen and (min-width: 1024px) {
 
   .image-grid {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(1, 1fr);
   }
 
 }
@@ -1153,6 +1168,17 @@ input[type="text"], input[type="email"], textarea {
   width: 40px; /* ajusta el ancho según sea necesario */
   height: 5px; /* ajusta la altura según sea necesario */
   border-radius: 15%; /* hace que la imagen sea redonda */
+}
+
+.formulario {
+  min-width: 80%;
+}
+
+
+@media screen and (max-width: 1023px) {
+  .respo div form {
+    max-width: 100%;
+  }
 }
 
 
