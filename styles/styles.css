@@ -1133,6 +1133,21 @@ input[type="text"], input[type="email"], textarea {
     transform: rotate(360deg);
   }
 }
+.animacion-titulo {
+  font-size: 3rem;
+  color: #ffffff;
+  position: relative;
+  animation: neonEffect 1.5s ease-in-out infinite alternate;
+}
+
+@keyframes neonEffect {
+  0% {
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+  }
+  100% {
+    text-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+  }
+}
 
 .bandera {
   width: 40px; /* ajusta el ancho según sea necesario */
