@@ -854,7 +854,7 @@ h4 {
   .contact-section .content-wrapper {
     --max-width           : 800px;
     grid-template-columns : 1fr 1fr;
-    text-align            : left;
+    text-align            : center;
   }
 
 }
@@ -917,6 +917,8 @@ input[type="text"], input[type="email"], textarea {
   border-radius: 5px;
   font-size: 16px;
   box-sizing: border-box;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 @media screen and (max-width: 600px) {
@@ -1172,6 +1174,10 @@ input[type="text"], input[type="email"], textarea {
 
 .formulario {
   min-width: 80%;
+}
+
+.formulario h4 {
+  text-align: center;
 }
 
 
