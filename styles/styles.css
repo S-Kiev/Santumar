@@ -921,6 +921,10 @@ input[type="text"], input[type="email"], textarea {
   margin-bottom: 5px;
 }
 
+iframe{
+  max-width: 100%;
+}
+
 @media screen and (max-width: 600px) {
   form {
     padding: 10px;
@@ -951,7 +955,9 @@ input[type="text"], input[type="email"], textarea {
 
 @media (max-width: 1023px) {
   .map-container {
-    display: none; /* Oculta el mapa en pantallas más estrechas */
+     /*display: none; Oculta el mapa en pantallas más estrechas */
+     margin-left: 10px;
+     margin-right: 10px;
   }
 }
 
