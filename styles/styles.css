@@ -852,7 +852,7 @@ h4 {
 @media screen and (min-width: 1024px) {
 
   .contact-section .content-wrapper {
-    --max-width           : 890px;
+    --max-width           : 1000px;
     grid-template-columns : 1fr 1fr;
     text-align            : center;
   }
