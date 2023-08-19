@@ -852,7 +852,7 @@ h4 {
 @media screen and (min-width: 1024px) {
 
   .contact-section .content-wrapper {
-    --max-width           : 800px;
+    --max-width           : 890px;
     grid-template-columns : 1fr 1fr;
     text-align            : center;
   }
@@ -944,6 +944,8 @@ iframe{
   width: 800px; 
   height: 500; 
   border: 0;
+  border: 2px solid #000000;
+  border-radius: 20px;
 }
 
 .map-container {
@@ -1176,14 +1178,6 @@ iframe{
   width: 40px; /* ajusta el ancho según sea necesario */
   height: 5px; /* ajusta la altura según sea necesario */
   border-radius: 15%; /* hace que la imagen sea redonda */
-}
-
-.formulario {
-  min-width: 80%;
-}
-
-.formulario h4 {
-  text-align: center;
 }
 
 
